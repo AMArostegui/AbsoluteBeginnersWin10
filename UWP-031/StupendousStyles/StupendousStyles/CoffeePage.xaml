@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="StupendousStyles.CoffeePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:StupendousStyles"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <RelativePanel Background="#3C1F19">
+        <Image Name="Logo" Source="Assets/white-logo.png" Style="{StaticResource LogoWhiteImage}" ></Image>
+        <Button Name="RoastButton" Margin="200,0,0,0" RelativePanel.Below="Logo" Style="{StaticResource ButtonCoffee}" Content="Roast">
+            <Button.Flyout>
+                <MenuFlyout>
+                    <MenuFlyoutItem Name="ItemRoastNone" Style="{StaticResource MenuFlyoutItemCoffee}" Text="None" Click="MenuFlyoutItem_Click" />
+                    <MenuFlyoutItem Name="ItemRoastDark" Style="{StaticResource MenuFlyoutItemCoffee}" Text="Dark" Click="MenuFlyoutItem_Click" />
+                    <MenuFlyoutItem Name="ItemRoastMedium" Style="{StaticResource MenuFlyoutItemCoffee}" Text="Medium" Click="MenuFlyoutItem_Click" />
+                </MenuFlyout>
+            </Button.Flyout>
+        </Button>
+        <Button Name="SweetenerButton" Margin="40,0,0,0" RelativePanel.Below="Logo" RelativePanel.RightOf="RoastButton" Style="{StaticResource ButtonCoffee}" Content="Sweetener">
+            <Button.Flyout>
+                <MenuFlyout>
+                    <MenuFlyoutItem Name="ItemSweetenerNone" Style="{StaticResource MenuFlyoutItemCoffee}" Text="None" Click="MenuFlyoutItem_Click"/>
+                    <MenuFlyoutItem Name="ItemSweetenerSugar" Style="{StaticResource MenuFlyoutItemCoffee}" Text="Sugar" Click="MenuFlyoutItem_Click"/>
+                </MenuFlyout>
+            </Button.Flyout>
+        </Button>
+        <Button Margin="40,0,0,0" RelativePanel.Below="Logo" RelativePanel.RightOf="SweetenerButton" Style="{StaticResource ButtonCoffee}" Content="Cream">
+            <Button.Flyout>
+                <MenuFlyout>
+                    <MenuFlyoutItem Name="ItemCreamNone" Style="{StaticResource MenuFlyoutItemCoffee}" Text="None" Click="MenuFlyoutItem_Click"/>
+                    <MenuFlyoutItem Name="ItemCream2Milk" Style="{StaticResource MenuFlyoutItemCoffee}" Text="2% Milk" Click="MenuFlyoutItem_Click"/>
+                    <MenuFlyoutItem Name="ItemCreamWholeMilk" Style="{StaticResource MenuFlyoutItemCoffee}" Text="Whole Milk" Click="MenuFlyoutItem_Click"/>
+                </MenuFlyout>
+
+            </Button.Flyout>
+        </Button>
+        <TextBlock Name="OrderText" Margin="40,320,0,0" Style="{StaticResource ContentTextBlockStyle}">Coffee:</TextBlock>
+    </RelativePanel>
+
+
+
+</Page>

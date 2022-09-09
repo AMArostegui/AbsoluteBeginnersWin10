@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="StupendousStyles.DonutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:StupendousStyles"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <RelativePanel Background="Red">
+        <Image Name="Logo" Source="Assets/white-logo.png" Style="{StaticResource LogoWhiteImage}" ></Image>
+        <TextBlock Name="TextGlazed" Margin="30,0,0,0" Style="{StaticResource ContentTextBlockStyle}" RelativePanel.Below="Logo">Original Glazed Count</TextBlock>
+        <Slider Name="SliderGlazed" Margin="60,0,60,0" RelativePanel.RightOf="TextGlazed" RelativePanel.AlignVerticalCenterWith="TextGlazed" Maximum="24" Minimum="0" RelativePanel.AlignRightWithPanel="True" />
+        <TextBlock Name="TextSpeedway" Margin="30,50,0,0" Style="{StaticResource ContentTextBlockStyle}" RelativePanel.Below="TextGlazed">Speedway Special Count</TextBlock>
+        <Slider Margin="60,50,60,0" RelativePanel.AlignVerticalCenterWith="TextSpeedway" RelativePanel.AlignLeftWith="SliderGlazed" RelativePanel.AlignRightWith="SliderGlazed" Maximum="24" Minimum="0"></Slider>
+    </RelativePanel>
+
+</Page>
