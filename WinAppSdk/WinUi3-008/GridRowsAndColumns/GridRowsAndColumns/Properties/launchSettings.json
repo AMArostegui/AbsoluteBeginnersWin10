@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GridRowsAndColumns (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "GridRowsAndColumns (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

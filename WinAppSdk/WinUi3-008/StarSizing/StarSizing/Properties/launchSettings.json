@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "StarSizing (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "StarSizing (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

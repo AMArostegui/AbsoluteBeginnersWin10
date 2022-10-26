@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AlignmentAndMargins (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "AlignmentAndMargins (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

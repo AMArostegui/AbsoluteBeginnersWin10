@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SimpleStackPanel (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "SimpleStackPanel (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

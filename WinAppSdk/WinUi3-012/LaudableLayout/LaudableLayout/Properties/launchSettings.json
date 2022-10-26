@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LaudableLayout (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "LaudableLayout (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

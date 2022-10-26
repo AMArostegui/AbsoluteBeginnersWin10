@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GoNuts (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "GoNuts (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "RowDefinitions (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "RowDefinitions (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LaboriousLayout (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "LaboriousLayout (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
