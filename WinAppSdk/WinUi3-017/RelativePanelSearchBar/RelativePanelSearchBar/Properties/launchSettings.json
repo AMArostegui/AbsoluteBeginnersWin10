@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "RelativePanelSearchBar (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "RelativePanelSearchBar (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

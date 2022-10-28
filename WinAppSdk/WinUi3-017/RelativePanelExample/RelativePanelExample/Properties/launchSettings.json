@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "RelativePanelExample (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "RelativePanelExample (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

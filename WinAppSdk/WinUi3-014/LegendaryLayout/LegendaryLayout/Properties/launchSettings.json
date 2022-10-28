@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LegendaryLayout (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "LegendaryLayout (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

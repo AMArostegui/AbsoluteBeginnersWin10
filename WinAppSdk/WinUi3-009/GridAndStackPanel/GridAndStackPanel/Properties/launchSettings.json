@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GridAndStackPanel (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "GridAndStackPanel (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
