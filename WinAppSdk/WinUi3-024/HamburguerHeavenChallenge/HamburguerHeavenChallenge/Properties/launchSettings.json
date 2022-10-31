@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "HamburguerHeavenChallenge (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "HamburguerHeavenChallenge (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

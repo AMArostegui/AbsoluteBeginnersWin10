@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ScrollViewerExample (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ScrollViewerExample (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

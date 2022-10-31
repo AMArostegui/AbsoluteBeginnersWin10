@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "HamburguerExample (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "HamburguerExample (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
