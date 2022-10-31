@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "XAMLResources (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "XAMLResources (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

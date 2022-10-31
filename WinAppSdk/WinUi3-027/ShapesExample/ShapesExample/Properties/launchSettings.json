@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ShapesExample (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ShapesExample (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
