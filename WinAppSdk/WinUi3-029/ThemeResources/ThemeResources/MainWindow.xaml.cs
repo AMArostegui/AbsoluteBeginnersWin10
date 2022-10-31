@@ -16,7 +16,7 @@ using Windows.Foundation.Collections;
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
-namespace GoNuts
+namespace ThemeResources
 {
     /// <summary>
     /// An empty window that can be used on its own or navigated to within a Frame.
@@ -26,27 +26,6 @@ namespace GoNuts
         public MainWindow()
         {
             this.InitializeComponent();
-            MyFrame.Navigate(typeof(DonutPage));
-        }
-
-        private void DonutButton_Click(object sender, RoutedEventArgs e)
-        {
-            MyFrame.Navigate(typeof(DonutPage));
-        }
-
-        private void CoffeeButton_Click(object sender, RoutedEventArgs e)
-        {
-            MyFrame.Navigate(typeof(CoffeePage));
-        }
-
-        private void ScheduleButton_Click(object sender, RoutedEventArgs e)
-        {
-            MyFrame.Navigate(typeof(SchedulePage));
-        }
-
-        private void CompleteButton_Click(object sender, RoutedEventArgs e)
-        {
-            MyFrame.Navigate(typeof(CompletePage));
         }
     }
 }

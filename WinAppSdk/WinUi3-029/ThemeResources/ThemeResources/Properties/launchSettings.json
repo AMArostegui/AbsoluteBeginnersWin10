@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ThemeResources (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ThemeResources (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
