@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AdaptiveLayout (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "AdaptiveLayout (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

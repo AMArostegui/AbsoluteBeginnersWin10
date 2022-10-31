@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "BlendVisualStates (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "BlendVisualStates (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

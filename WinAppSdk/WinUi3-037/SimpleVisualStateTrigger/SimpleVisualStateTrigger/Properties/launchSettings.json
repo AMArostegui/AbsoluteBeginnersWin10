@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SimpleVisualStateTrigger (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "SimpleVisualStateTrigger (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
