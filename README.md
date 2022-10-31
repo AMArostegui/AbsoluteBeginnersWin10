@@ -1,9 +1,11 @@
-# Fork of course _Windows 10 development for absolute beginners_ for my own purposes
+# **Windows App Sdk** fork of course **Windows 10 development for absolute beginners**
+
+This is a very simple fork of Microsoft's course for my own purposes:
 
 1. Build a Win App Sdk (WinUI3) version of the UWP projects.
-2. Change project folder name to keep the course as a reference
+2. Updates in project names or shortcuts, to keep the course as quick access reference
 
-# Contents
+# Content Table
 
 1. UWP-001 - Series Introduction
 2. UWP-002 - Creating your First Universal Windows Platform App
