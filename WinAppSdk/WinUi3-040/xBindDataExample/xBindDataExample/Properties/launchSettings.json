@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "xBindDataExample (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "xBindDataExample (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
