@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "UserCtrlData (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "UserCtrlData (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

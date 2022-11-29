@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ObservableCollection (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ObservableCollection (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
